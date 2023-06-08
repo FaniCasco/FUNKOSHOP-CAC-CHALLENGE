@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/shop.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <title>Challenge Integrador Codo a Codo - SHOP</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md ">
+            <!--COMIENZA LA NAV-->
+
+            <div class="container-fluid">
+                <!--LOGO-->
+                <a class="navbar-brand" href="../index.html"> <img src="../branding/logo_light_horizontal.svg" alt=""></a>
+                <!--ICONO MENU HAMBURGUESA--><button class="navbar-toggler .navbar-expand-md" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <!--START ENLACES-->
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 SHOP
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="../pages/login.html">LOGIN</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="../pages/compras.html"><img src="../icons/cart.png" alt="icono de carrito"></a>
+                            </li>
+                            <!--END ENLACES-->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--TERMINA LA NAV-->
+
+    </header>
+    <main>
+
+        <h3 class="h3-shop-1">BUSCAR</h3>
+        <input type="text" class="selector-1" placeholder="  item o categoría">
+
+        <h3 class="h3-shop-2">ORDENAR POR</h3>
+        <input type="text" class="selector-2" placeholder="  Mayor a menor">
+
+        <h3 class="h3-shop-3">PRECIO</h3>
+        <div class="caja-n">
+            <h5>MIN<input class="min" placeholder="0"></h5>
+            <h5>MAX<input class="max" placeholder="0"></h5>
+        </div>
+
+        <h3 class="h3-shop-3">FILTRAR</h3>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">NUEVOS
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+                OFERTAS
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+                EDICIÓN ESPECIAL
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label">
+                FAVORITOS
+            </label>
+        </div>
+
+        <div id="contenedor-1">
+            <div class="item-1">
+                <div class="item">
+                    <div id="caja-1" class="caja-1">NUEVO</div>
+                    <img class="img-yoda" src="../star-wars/trooper-1.webp" alt="MUÑECO TROOPER">
+
+
+                    <p class="p-fig-1">STAR WARS</p>
+                    <p class="p2-fig-1">STORMTROOPER LIGHTSABER</p>
+                    <p class="precio-1">$ 1799,99.-</p>
+                    <p class="cuotas-1">3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedor-2">
+            <div class="item-2">
+                <div class="item">
+                    <div id="caja-1" class="caja-2">NUEVO</div>
+                    <img class="img-pokemon" src="../pokemon/pidgeotto-1.webp" alt="MUÑECO PIDGOTTO">
+
+
+                    <p class="p-fig-2">POKEMON</p>
+                    <p class="p2-fig-2">PIDGEOTTO</p>
+                    <p class="precio-2">$ 1799,99.-</p>
+                    <p class="cuotas-2">3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedor-3">
+            <div class="item-3">
+                <div class="item">
+                    <div id="caja-1" class="caja-3">NUEVO</div>
+                    <img class="img-potter" src="../harry-potter/luna-1.webp" alt="MUÑECO LUNA">
+
+                    <p class="p-fig-3">HARRY POTTER</p>
+                    <p class="p2-fig-3">LUNA LOVEGOOD LION MASK</p>
+                    <p class="precio-3">$ 1799,99.-</p>
+                    <p class="cuotas-3">3 CUOTAS SIN INTERÉS</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+    </main>
+    <footer>
+        <ul class="ul-footer">
+            <li><a href="../SHOP/shop.html">SHOP</a></li>
+            <li><a href="../ADMIN/register.html">REGISTRARSE</a></li>
+            <li><a href="../PAGES/login.html">INGRESAR</a></li>
+            <li><a href="#">CONTACTO</a></li>
+        </ul>
+        <img class="logo-footer" src="../branding/isotype.svg" alt="logo de Funkoshop">
+        <p class="parrafo-footer">All rights reserved 2022 - Funkoshop &copy</p>
+
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

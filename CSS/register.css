@@ -1,0 +1,99 @@
+form h1,
+p {
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 36px;
+}
+
+form h1 {
+    padding-top: 5%;
+    padding-bottom: 30px;
+}
+
+form .form-body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 10%;
+}
+
+form input {
+    border: none;
+    border-bottom: 2px solid #FF3333;
+}
+
+.box-btn #check {
+    margin-left: 41px;
+    border: 2px solid #1F1F1F;
+
+}
+
+form .form-box label {
+    width: 230px;
+    height: 49px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.box-btn .boton-register {
+    color: white;
+    background: #FF3333;
+    border-radius: 0%;
+
+}
+
+.box-btn label {
+    width: 270px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #1F1F1F;
+}
+
+.box-btn a {
+
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D84B5;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 641px) {
+    form p {
+        margin-bottom: 48px;
+    }
+
+    form h1 {
+        margin-top: 48px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    form .form-body {
+        gap: 10px;
+        text-align: center;
+
+
+    }
+
+}

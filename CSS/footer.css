@@ -1,0 +1,49 @@
+/*footer*/
+
+footer {
+    width: auto;
+    height: auto;
+    background: #30343F;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'ul-footer logo-footer' 'parrafo-footer parrafo-footer';
+}
+
+footer .parrafo-footer {
+    grid-area: parrafo-footer;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 23px;
+    color: #FFFFFF;
+}
+
+footer .ul-footer {
+    grid-area: ul-footer;
+    padding-top: 85px;
+    margin-top: -22px;
+    margin-bottom: 80px;
+}
+
+footer .ul-footer li {
+    gap: 10px;
+}
+
+footer .ul-footer li a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+footer .logo-footer {
+    grid-area: logo-footer;
+    justify-self: flex-end;
+    padding-top: 25%;
+    padding-right: 5%;
+}

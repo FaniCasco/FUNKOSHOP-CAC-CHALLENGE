@@ -1,0 +1,35 @@
+.box-btn-l {
+    margin-left: 90px;
+}
+
+.enlace {
+    margin-left: 10%;
+}
+
+ .boton-login {
+    color: white;
+    background: #FF3333;
+    border-radius: 0%;
+
+}
+
+@media screen and (max-width: 500px) {
+
+     .box-btn-l{
+        
+        text-align: center;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .box-btn-l{ 
+       margin-right: -5px;
+    }
+
+    .box-btn-l label {
+        margin-left: -79px;
+    }
+    .box-btn-l .enlace {
+        margin-left: -100px;
+    }
+}

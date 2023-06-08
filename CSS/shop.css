@@ -1,0 +1,177 @@
+            /**************************/
+            
+            .h3-shop-1 {
+                width: 80vw;
+                height: 29px;
+                margin-top: 32px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #111111;
+                margin-bottom: 20px;
+            }
+            
+            .h3-shop-2 {
+                width: 80vw;
+                height: 29px;
+                margin-top: 32px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #111111;
+                margin-bottom: 20px;
+            }
+            
+            .selector-1 {
+                box-sizing: border-box;
+                width: 243.03px;
+                height: 44.28px;
+                left: 110px;
+                top: 251px;
+                border: 2px solid #30343F;
+                border-radius: 6px;
+            }
+            
+            .selector-2 {
+                box-sizing: border-box;
+                background-color: transparent;
+                width: 243.03px;
+                height: 44.28px;
+                border: 2px solid #30343F;
+                border-radius: 6px;
+                margin-bottom: 20px;
+            }
+            
+            input::placeholder {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #B9B9B9;
+            }
+            
+            .h3-shop-3 {
+                width: 80vw;
+                height: 29px;
+                margin-top: 32px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 29px;
+                color: #111111;
+                margin-bottom: 20px;
+            }
+            
+            label {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            
+            .min {
+                box-sizing: border-box;
+                width: 59.14px;
+                height: 27.52px;
+                border: 2px solid #30343F;
+                border-radius: 6px;
+            }
+            
+            .max {
+                box-sizing: border-box;
+                width: 59.14px;
+                height: 27.52px;
+                border: 2px solid #30343F;
+                border-radius: 6px;
+            }
+            
+            .caja-n {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+            }
+            
+            .caja-n input {
+                margin-left: 10px;
+            }
+            
+            .caja-n ::placeholder {
+                text-align: center;
+            }
+            
+            .form-check-input {
+                border: solid 2px black;
+            }
+            
+            .form-check .form-check-input {
+                margin-left: -0.8em;
+                margin-right: 0.3em;
+            }
+            
+            #caja-1 {
+                margin-left: 52.5%;
+            }
+            
+            .h1-login {
+                width: auto;
+                height: 29px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 49px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: #1F1F1F;
+            }
+            
+            .form-login {
+                text-align: center;
+            }
+            
+            .email-l,
+            .pass-l {
+                color: #1F1F1F;
+            }
+            
+            .btn-login {
+                width: 103px;
+                height: 39.06px;
+                border: none;
+                left: 0%;
+                right: 0%;
+                top: 0%;
+                bottom: 0%;
+                background: #FF3333;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #FFFFFF;
+            }
+            
+            #recordarme {
+                color: #1F1F1F;
+            }
+            
+            .p-form {
+                width: auto;
+                height: 38px;
+                top: 265px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 38px;
+                font-family: 'Raleway';
+                font-style: normal;
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: #1F1F1F;
+            }

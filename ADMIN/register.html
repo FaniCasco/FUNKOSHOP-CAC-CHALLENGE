@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/shop.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/register.css">
+    <title>Challenge Integrador Codo a Codo- Register</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md ">
+            <!--COMIENZA LA NAV-->
+
+            <div class="container-fluid">
+                <!--LOGO-->
+                <a class="navbar-brand" href="../index.html"> <img src="../branding/logo_light_horizontal.svg" alt=""></a>
+                <!--ICONO MENU HAMBURGUESA--><button class="navbar-toggler .navbar-expand-md" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-dark"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <!--START ENLACES-->
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">SALIR</a>
+                            </li>
+
+                            <!--END ENLACES-->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--TERMINA LA NAV-->
+        <main>
+
+            <form action="">
+                <h1 class="h1-login">CREA TU CUENTA</h1>
+                <p class="p-form">Completa el formulario para ser parte del mundo de los Funkos</p>
+                <div class="form-body">
+                <div class="form-box">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Nombre" required/><br>
+                </div>
+                <div class="form-box">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" placeholder="Apellido" required/><br>
+                </div>
+                <div class="form-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Email" required /><br>
+                </div>
+                <div class="form-box">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" placeholder="***********" required/><br>
+                </div>
+                <div class="form-box">
+                    <label for="password">Repita la contraseña:</label>
+                    <input type="password" id="password" placeholder="***********" required/><br>
+                </div>
+
+                <div class="box-btn">
+                    <input class="btn boton-register" type="submit" value="Registrar">
+                    <input type="checkbox" id="check" class="check"/>
+                    <label for="check">Acepto <a href="#">Términos y condiciones</a></label>
+                </div>
+            </div>
+            </form>
+
+        </main>
+        <footer>
+            <ul class="ul-footer">
+                <li><a href="../SHOP/shop.html">SHOP</a></li>
+                <li><a href="#">REGISTRARSE</a></li>
+                <li><a href="#">INGRESAR</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <img class="logo-footer" src="../branding/isotype.svg" alt="logo de Funkoshop">
+            <p class="parrafo-footer">All rights reserved 2022 - Funkoshop &copy</p>
+
+        </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
