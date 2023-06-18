@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index-prueba</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="./CSS/index.css">
+
+    <link rel="stylesheet" href="./index-1.css">
     <link rel="stylesheet" href="./CSS/shop.css">
     <link rel="stylesheet" href="./CSS/footer.css">
-    <title>Challenge Integrador Codo a Codo/INDEX</title>
 </head>
 
 <body>
@@ -21,10 +22,13 @@
             <div class="container-fluid">
                 <!--LOGO-->
                 <a class="navbar-brand" href="index.html"> <img src="./BRANDING/logo_light_horizontal.svg" alt=""></a>
-                <!--ICONO MENU HAMBURGUESA--><button class="navbar-toggler .navbar-expand-md" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <!--ICONO MENU HAMBURGUESA--><button class="navbar-toggler .navbar-expand-md" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon navbar-dark"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
 
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -34,8 +38,9 @@
                         <!--START ENLACES-->
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                 SHOP
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    SHOP
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
@@ -54,7 +59,8 @@
                                 <a class="nav-link" href="./PAGES/login.html">LOGIN</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="./SHOP/shop.html"><img src="./icons/cart.png" alt="icono de carrito"></a>
+                                <a class="nav-link" href="./SHOP/shop.html"><img src="./icons/cart.png"
+                                        alt="icono de carrito"></a>
                             </li>
                             <!--END ENLACES-->
                         </ul>
@@ -79,100 +85,78 @@
         </div>
     </section>
     <!--FIN BANNER-->
-
     <main>
-        <!--CONTENIDO PRINCIPAL-->
-
-
-        <div id="contenedor-grid-1">
-
-
-            <!--TITULO-->
-            <h3 class="yoda-h3">Star Wars & <br> The Mandalorian</h3>
-            <!--PARRAFO-->
-            <p class="yoda-p">Disfruta de una saga que sigue agregando personajes a su colección.</p>
-            <!--IMAGEN-->
-            <img class="yoda" src="./STAR-WARS/baby-yoda-1.webp" alt="muñeco de baby-yoda">
+        <div id="seccion1Yoda">
+            <div class="h1-p w-auto">
+                <!--TITULO-SECCION 1-->
+                <h1 class="yoda-h1">Star Wars & <br> The Mandalorian</h1>
+                <!--PARRAFO-->
+                <p class="yoda-p">Disfruta de una saga que sigue agregando personajes a su colección.</p>
+            </div>
+            <img src="./STAR-WARS/baby-yoda-1.webp" class="bYoda1 img-fluid" alt="...">
             <!--LINEA-->
             <div class="yoda-linea"></div>
             <!--BOTON-->
             <button class="yoda-boton">VER COLECCIÓN</button>
-            <!--FIN DE ITEM-->
-        </div>
-        <!--FIN DE CONTENEDOR GRID 1-->
 
-        <div id="contenedor-grid-2">
-
-
-            <!--TITULO-->
-            <h3 class="pokemon-h3">POKEMON INDIGO</h3>
-            <!--PARRAFO-->
-            <p class="pokemon-p">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
             <!--IMAGEN-->
-            <img class="pokemon" src="./POKEMON/vulpix-1.webp" alt="muñeco de pokemon pidgeotto">
+        </div>
+
+        <div id="seccion2Pokemon">
+            <div class="h1-p-pok w-auto">
+                <!--TITULO-SECCION 2-->
+                <h1 class="pokemon-h1">POKEMON INDIGO</h1>
+                <!--PARRAFO-->
+                <p class="pokemon-p">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
+            </div>
+            <!--IMAGEN-->
+            <img src="./POKEMON/vulpix-1.webp" class="vulpix1 img-fluid" alt="...">
             <!--LINEA-->
             <div class="pokemon-linea"></div>
             <!--BOTON-->
             <button class="pokemon-boton">VER COLECCIÓN</button>
-            <!--FIN DE ITEM-->
         </div>
-        <!--FIN DE CONTENEDOR GRID 2-->
 
-        <div id="contenedor-grid-3">
-
-
-            <!--TITULO-->
-            <h3 class="potter-h3">HARRY POTTER</h3>
-            <!--PARRAFO-->
-            <p class="potter-p">Revive los recuerdos de una saga llena de magia y encanto.</p>
+        <div id="seccion2Potter">
+            <div class="h1-p-pott w-auto">
+                <!--TITULO-SECCION 2-->
+                <h1 class="potter-h1">HARRY POTTER</h1>
+                <!--PARRAFO-->
+                <p class="potter-p">Revive los recuerdos de una saga llena de magia y encanto.</p>
+            </div>
             <!--IMAGEN-->
-            <img class="potter" src="./HARRY-POTTER/snape-patronus-1.webp" alt="muñeco de harry potter snipe">
+            <img src="./HARRY-POTTER/snape-patronus-1.webp" class="snape1 img-fluid" alt="...">
             <!--LINEA-->
             <div class="potter-linea"></div>
             <!--BOTON-->
             <button class="potter-boton">VER COLECCIÓN</button>
-            <!--FIN DE ITEM-->
         </div>
-        <!--FIN DE CONTENEDOR GRID 3-->
-
-        <!--FIN SECCION-->
-
+        
         <!--SECCION LANZAMIENTOS-->
         <h2 class="lanzamientos-h2">ULTIMOS LANZAMIENTOS</h2>
         <div id="lanzamientosGrid">
             <div id="contenedor-1">
-                <div class="item-1">
-                    <div class="item">
                         <div class="caja-1">NUEVO</div>
                         <img class="img-yoda" src="./STAR-WARS/trooper-1.webp" alt="MUÑECO TROOPER">
-
-
                         <p class="p-fig-1">STAR WARS</p>
                         <p class="p2-fig-1">STORMTROOPER LIGHTSABER</p>
                         <p class="precio-1">$ 1799,99.-</p>
                         <p class="cuotas-1">3 CUOTAS SIN INTERÉS</p>
                     </div>
-                </div>
-            </div>
+               
 
             <div id="contenedor-2">
-                <div class="item-2">
-                    <div class="item">
+              
                         <div class="caja-2">NUEVO</div>
                         <img class="img-pokemon" src="./POKEMON/pidgeotto-1.webp" alt="MUÑECO PIDGOTTO">
-
-
                         <p class="p-fig-2">POKEMON</p>
                         <p class="p2-fig-2">PIDGEOTTO</p>
                         <p class="precio-2">$ 1799,99.-</p>
                         <p class="cuotas-2">3 CUOTAS SIN INTERÉS</p>
                     </div>
-                </div>
             </div>
 
             <div id="contenedor-3">
-                <div class="item-3">
-                    <div class="item">
                         <div class="caja-3">NUEVO</div>
                         <img class="img-potter" src="./HARRY-POTTER/luna-1.webp" alt="MUÑECO LUNA">
 
@@ -180,29 +164,20 @@
                         <p class="p2-fig-3">LUNA LOVEGOOD LION MASK</p>
                         <p class="precio-3">$ 1799,99.-</p>
                         <p class="cuotas-3">3 CUOTAS SIN INTERÉS</p>
-                    </div>
-                </div>
-            </div>
         </div>
-
+    </div>
         <!--SECCION LANZAMIENTOS -->
 
-        <!--FIN SECCION-->
-    </main>
-
-    <footer>
-        <ul class="ul-footer">
-            <li><a href="./SHOP/shop.html">SHOP</a></li>
-            <li><a href="./ADMIN/register.html">REGISTRARSE</a></li>
-            <li><a href="./PAGES/login.html">INGRESAR</a></li>
-            <li><a href="#">CONTACTO</a></li>
-        </ul>
-        <img class="logo-footer" src="./BRANDING/logo_light_horizontal.svg" alt="logo de Funkoshop">
-        <p class="parrafo-footer">All rights reserved 2022 - Funkoshop &copy</p>
-
-    </footer>
+        <footer>
+            <ul class="ul-footer">
+                <li><a href="./SHOP/shop.html">SHOP</a></li>
+                <li><a href="./ADMIN/register.html">REGISTRARSE</a></li>
+                <li><a href="./PAGES/login.html">INGRESAR</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <img class="logo-footer" src="./BRANDING/isotype.svg" alt="logo de Funkoshop">
+            <p class="p-footer">All rights reserved 2022 - Funkoshop &copy</p>
+        </footer>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
